@@ -14,7 +14,9 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     EditText id_var, nome_var, documento_var, curso_var;
-    ArrayList<Alunos> alunor_var = new ArrayList<>();
+
+    ArrayList<Alunos> alunos_var = new ArrayList<>();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
